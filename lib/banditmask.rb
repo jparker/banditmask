@@ -1,3 +1,6 @@
+warn '[DEPRECATION] This gem has been renamed to banditry and will no ' \
+  'longer be supported. Please switch to banditry as soon as possible.'
+
 require 'banditmask/version'
 require 'banditmask/banditry'
 

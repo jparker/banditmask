@@ -26,4 +26,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'minitest', '~> 5.7'
 
   spec.add_development_dependency 'pry'
+
+  spec.post_install_message = <<-END
+!     The 'banditmask' gem has been deprecated and has been replaced by 'banditry'.
+!
+!     See: https://rubygems.org/gems/banditry
+!     And: https://github.com/jparker/banditry
+  END
 end
